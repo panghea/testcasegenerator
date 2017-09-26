@@ -1,0 +1,14 @@
+data_csv: 
+  - ["Category A","Ship Type B","skip","need","skip","skip","need","Package C1"]
+  - ["Category A","Ship Type C","need","need","skip","need","need","Package C2"]
+  - ["Category A","Ship Type D","need","need","need","need","need","Package A2"]
+  - ["Category A","Ship Type C","skip","skip","skip","skip","need","Package A3"]
+  - ["Category B","Ship Type A","need","need","skip","need","need","Package C1"]
+  - ["Category B","Ship Type B","skip","need","need","need","need","Package A2"]
+  - ["Category B","Ship Type F","need","need","skip","need","need","Package B7"]
+  - ["Category C","Ship Type B","need","need","need","need","need","Package B4"]
+  - ["Category C","Ship Type A","need","need","skip","skip","need","Package A3"]
+  - ["Category D","Ship Type F","skip","need","skip","need","skip","Package C2"]
+  - ["Category D","Ship Type G","skip","need","skip","skip","need","Package D1"]
+  - ["Category E","Ship Type A","need","skip","skip","skip","skip","Package F2"]
+  

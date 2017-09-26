@@ -1,0 +1,97 @@
+---
+- ItemCategory: Category A
+  ItemShipType: Ship Type B
+  ApproveRouteA: skip
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: skip
+  ApproveRouteE: need
+  PackageType: Package C1
+- ItemCategory: Category A
+  ItemShipType: Ship Type C
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package C2
+- ItemCategory: Category A
+  ItemShipType: Ship Type D
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: need
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package A2
+- ItemCategory: Category A
+  ItemShipType: Ship Type C
+  ApproveRouteA: skip
+  ApproveRouteB: skip
+  ApproveRouteC: skip
+  ApproveRouteD: skip
+  ApproveRouteE: need
+  PackageType: Package A3
+- ItemCategory: Category B
+  ItemShipType: Ship Type A
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package C1
+- ItemCategory: Category B
+  ItemShipType: Ship Type B
+  ApproveRouteA: skip
+  ApproveRouteB: need
+  ApproveRouteC: need
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package A2
+- ItemCategory: Category B
+  ItemShipType: Ship Type F
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package B7
+- ItemCategory: Category C
+  ItemShipType: Ship Type B
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: need
+  ApproveRouteD: need
+  ApproveRouteE: need
+  PackageType: Package B4
+- ItemCategory: Category C
+  ItemShipType: Ship Type A
+  ApproveRouteA: need
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: skip
+  ApproveRouteE: need
+  PackageType: Package A3
+- ItemCategory: Category D
+  ItemShipType: Ship Type F
+  ApproveRouteA: skip
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: need
+  ApproveRouteE: skip
+  PackageType: Package C2
+- ItemCategory: Category D
+  ItemShipType: Ship Type G
+  ApproveRouteA: skip
+  ApproveRouteB: need
+  ApproveRouteC: skip
+  ApproveRouteD: skip
+  ApproveRouteE: need
+  PackageType: Package D1
+- ItemCategory: Category E
+  ItemShipType: Ship Type A
+  ApproveRouteA: need
+  ApproveRouteB: skip
+  ApproveRouteC: skip
+  ApproveRouteD: skip
+  ApproveRouteE: skip
+  PackageType: Package F2

@@ -1,0 +1,20 @@
+{
+  "name": "TestCodeGeneratorExample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "xlsx2yaml": "chokidar xlsx2yaml.rb input/data_pattern.xlsx -c \"ruby xlsx2yaml.rb\" -p --poll-interval 1000 --pool-interval-binary 1000 ",
+    "csv2yaml": "chokidar csv2yaml.rb input/data_pattern_csv.yaml -c \"ruby csv2yaml.rb\" -p --poll-interval 1000 --pool-interval-binary 1000 ",
+    "yaml2testcase": "chokidar generate_test_case.rb generated/generator_input.yaml -c \"ruby generate_test_case.rb\" -p --poll-interval 1000 --pool-interval-binary 1000 ",
+    "watch_xlsx": "run-p xlsx2yaml yaml2testcase",
+    "watch_csv": "run-p csv2yaml yaml2testcase"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "chokidar-cli": "^1.2.0",
+    "npm-run-all": "^4.0.2"
+  }
+}
